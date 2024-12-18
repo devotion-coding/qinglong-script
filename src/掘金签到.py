@@ -132,7 +132,7 @@ def fire():
         当前签到状态：{context["sign_status"]}
         连续签到天数：{context["cont_count"]}
         累计签到天数：{context["sum_count"]}
-        获得矿石总数：{context["point_count"]}
+        获得矿石总数：{context["point_count"]} 
         程序员老黄历：{context["should_or_not"]} -- {context["aphorism"]}
     """
     print(content)
