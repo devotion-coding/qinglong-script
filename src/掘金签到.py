@@ -129,7 +129,6 @@ def fire():
     # 消息通知模版
     content = f"""
     掘金签到提醒～
-
         当前签到状态：{context["sign_status"]}
         连续签到天数：{context["cont_count"]}
         累计签到天数：{context["sum_count"]}
