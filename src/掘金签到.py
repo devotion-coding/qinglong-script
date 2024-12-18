@@ -12,8 +12,7 @@ import urllib.parse
 
 # --------------------------------------------------------------------------------------------------------------------
 # 自行在浏览器控制台获取
-# cookie = "填写你的掘金cookie"
-cookies = "csrf_session_id=4790b6aa54b463538c9d99a3ed2bfd37; __tea_cookie_tokens_2608=%257B%2522web_id%2522%253A%25227442574709063632447%2522%252C%2522user_unique_id%2522%253A%25227442574709063632447%2522%252C%2522timestamp%2522%253A1732859482797%257D; passport_csrf_token=894291523a54b722e7dbd565a074dab2; passport_csrf_token_default=894291523a54b722e7dbd565a074dab2; is_staff_user=false; store-region=cn-bj; store-region-src=uid; n_mh=64m0FHiIlATht-x2ZjqwDgmWO_mLxAv7f8ncWWWp6tw; sid_guard=08d469b246e38167a66e8e4c5d883c35%7C1732862184%7C31536000%7CSat%2C+29-Nov-2025+06%3A36%3A24+GMT; uid_tt=a474786d33d762f68d86f53eee198611; uid_tt_ss=a474786d33d762f68d86f53eee198611; sid_tt=08d469b246e38167a66e8e4c5d883c35; sessionid=08d469b246e38167a66e8e4c5d883c35; sessionid_ss=08d469b246e38167a66e8e4c5d883c35; sid_ucp_v1=1.0.0-KGIyMDdmYzhhNjFiZWNjOWZjZjYzMmM5ZTc1NWY4MTUzNGUzMTQ3ZGEKFgjt0_DA_fXVAhDowaW6BhiwFDgIQAsaAmxmIiAwOGQ0NjliMjQ2ZTM4MTY3YTY2ZThlNGM1ZDg4M2MzNQ; ssid_ucp_v1=1.0.0-KGIyMDdmYzhhNjFiZWNjOWZjZjYzMmM5ZTc1NWY4MTUzNGUzMTQ3ZGEKFgjt0_DA_fXVAhDowaW6BhiwFDgIQAsaAmxmIiAwOGQ0NjliMjQ2ZTM4MTY3YTY2ZThlNGM1ZDg4M2MzNQ; _tea_utm_cache_586864={%22utm_source%22:%22gold_browser_extension%22}; _tea_utm_cache_2608={%22utm_source%22:%22gold_browser_extension%22}; _tea_utm_cache_2018={%22utm_source%22:%22gold_browser_extension%22}"
+cookie = "填写你的掘金cookie"
 # --------------------------------------------------------------------------------------------------------------------
 # 下面的不用管理 直接 Fire！！！
 
