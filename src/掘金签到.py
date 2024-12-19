@@ -9,10 +9,15 @@ import requests
 import json
 import notify
 import urllib.parse
+import utils
 
 # --------------------------------------------------------------------------------------------------------------------
-# 自行在浏览器控制台获取
-cookies = "填写你的掘金cookie"
+# 脚本变量 请设置在环境变量中
+script_variable_map = {
+    # 掘金cookies 自行在浏览器控制台获取
+    "juejin_cookies":"请在环境变量中设置【juejin_cookies】"
+}
+utils.read_env_variable(script_variable_map)
 # --------------------------------------------------------------------------------------------------------------------
 # 下面的不用管理 直接 Fire！！！
 
@@ -41,7 +46,8 @@ context = {
 
 # 从cookie的uuid
 def parse_uuid():
-    if not cookies or cookies == "填写你的掘金cookie":
+    cookies = script_variable_map["juejin_cookies"]
+    if not cookies or cookies == "请在环境变量中设置【juejin_cookies】":
         print("请在脚本中设置cookie!!!")
         return
 
